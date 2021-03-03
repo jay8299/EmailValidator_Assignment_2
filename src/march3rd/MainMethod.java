@@ -19,8 +19,8 @@ public class MainMethod {
 		//Create an Anonymous Object of Functional Interface using Lambda.
 		EmailValidator emailvalidator = (email)-> {
 			Matcher matcher = pattern.matcher(email);
-		    System.out.println((matcher.matches())?email +" : "+ "Is Valid": 
-		    	email +" : "+ "Is Not Valid");
+		    System.out.println((matcher.matches())?email +" : "+ "E-mail Is Valid": 
+		    	email +" : "+ "E-mail Is Not Valid");
 		};
 		
 		//List of emails to be validated
